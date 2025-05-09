@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node2" appversion="7.1.2" hassounds="0" apprev="20913">
+<tour start="node2" apprev="20913" hassounds="0" appversion="7.1.2">
   <panorama id="node2">
-    <input levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3600" leveltilesize="510" height="3600" levelingpitch="0" overlap="1">
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" height="3600" levelingroll="0" width="3600">
       <level height="3600" preload="0" predecode="0" width="3600"/>
       <level height="1800" preload="0" predecode="0" width="1800"/>
       <level height="900" preload="0" predecode="0" width="900"/>
@@ -9,53 +9,53 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="149.546" projection="4" pan="169.924" tilt="-0.611413"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <start projection="4" pan="169.924" fov="149.546" tilt="-0.611413"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" fov="140" pan="360" fovstereographic="330" tilt="90"/>
+      <max fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1" tilt="90"/>
     </view>
-    <userdata latitude="35.489885" heading="0" longitude="129.436698" description="" nodeid="node2" author="" title="스팟1" comment="" info="" copyright="" tags="항공" source="" customnodeid="" datetime="2023-11-02 오후 12:04" altitude="45.49"/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label enabled="1" background="1" border="1" width="180" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" height="20" borderradius="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot target="_blank" description="" skinid="잠실대교" id="Point01" url="" pan="-231.5" title="" tilt="-1.13"/>
-      <hotspot target="_blank" description="" skinid="잠실대교-마우스오버" id="Point02" url="" pan="-281.44" title="" tilt="-4.97"/>
-      <hotspot target="_blank" description="" skinid="한강 " id="Point03" url="" pan="-161.28" title="" tilt="0.0499999"/>
-      <hotspot target="_blank" description="" skinid="지하철 2호선 잠실나루역" id="Point04" url="" pan="-131.71" title="" tilt="0.05"/>
-      <hotspot target="" distance="0.378834" description="" id="Point05" pan="-53.88" title="스팟2" tilt="-25.11" skinid="지하철 9호선 한성백제역" url="{node3}"/>
-      <hotspot target="_blank" description="" skinid="지하철 2호선 잠실나루역" id="Point06" url="" pan="-78.54" title="" tilt="-3"/>
-      <hotspot target="_blank" description="" skinid="지하철역-2,8호선 잠실역" id="Point07" url="" pan="-105.15" title="" tilt="-42.07"/>
+    <userdata author="" comment="" heading="0" title="스팟1" info="" latitude="35.489885" customnodeid="" datetime="2023-11-02 오후 12:04" source="" nodeid="node2" copyright="" longitude="129.436698" description="" tags="항공" altitude="45.49"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" border="1" height="20" background="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" borderradius="1" wordwrap="1" width="180"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot target="_blank" id="Point01" skinid="잠실대교" pan="-231.5" title="" description="" url="" tilt="-1.13"/>
+      <hotspot target="_blank" id="Point02" skinid="잠실대교-마우스오버" pan="-281.44" title="" description="" url="" tilt="-4.97"/>
+      <hotspot target="_blank" id="Point03" skinid="한강 " pan="-161.28" title="" description="" url="" tilt="0.0499999"/>
+      <hotspot target="_blank" id="Point04" skinid="지하철 2호선 잠실나루역" pan="-131.71" title="" description="" url="" tilt="0.05"/>
+      <hotspot target="" pan="-53.88" title="스팟2" distance="0.378834" id="Point05" skinid="지하철 9호선 한성백제역" description="" url="{node3}" tilt="-25.11"/>
+      <hotspot target="_blank" id="Point06" skinid="지하철 2호선 잠실나루역" pan="-78.54" title="" description="" url="" tilt="-3"/>
+      <hotspot target="_blank" id="Point07" skinid="지하철역-2,8호선 잠실역" pan="-105.15" title="" description="" url="" tilt="-42.07"/>
     </hotspots>
     <media/>
-    <transition enabled="1" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" zoomspeed="2" zoomfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control contextvr="1" hideabout="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" sensitivity="8" contextprojections="0"/>
+    <transition zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" zoomout="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomafteroutfov="40" enabled="1" delay="none" zoomfov="40"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" contextvr="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="1" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" rubberband="0" simulatemass="1" zoomcentercursor="1" lockedmouse="0" speedwheel="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2000" leveltilesize="510" height="2000" levelingpitch="0" overlap="1">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" overlap="1" height="2000" levelingroll="0" width="2000">
       <level height="2000" preload="0" predecode="0" width="2000"/>
       <level height="1000" preload="0" predecode="0" width="1000"/>
       <level height="500" preload="1" predecode="1" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="93.3354" projection="4" pan="-167.953" tilt="-18.3635"/>
-      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <start projection="4" pan="-167.953" fov="93.3354" tilt="-18.3635"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" fov="140" pan="360" fovstereographic="330" tilt="90"/>
+      <max fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1" tilt="90"/>
     </view>
-    <userdata latitude="35.489884" heading="0" longitude="129.436702" description="" nodeid="node3" author="" title="스팟2" comment="" info="" copyright="" tags="세대" source="" customnodeid="" datetime="2023-11-02 오후 12:06" altitude="94.89"/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label enabled="1" background="1" border="1" width="180" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" height="20" borderradius="1" textalpha="1" backgroundalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" bordercolor="0x0000ff" borderalpha="1"/>
+    <userdata author="" comment="" heading="0" title="스팟2" info="" latitude="35.489884" customnodeid="" datetime="2023-11-02 오후 12:06" source="" nodeid="node3" copyright="" longitude="129.436702" description="" tags="세대" altitude="94.89"/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label textalpha="1" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" border="1" height="20" background="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" borderradius="1" wordwrap="1" width="180"/>
+      <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
     </hotspots>
     <media/>
-    <transition enabled="1" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomoutpause="1" zoomafteroutfov="40" zoomin="0" zoomspeed="2" zoomfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control contextvr="1" hideabout="0" contextfullscreen="1" zoomcentercursor="1" speedwheel="1" lockedkeyboardzoom="0" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedwheel="0" lockedmouse="0" invertwheel="0" sensitivity="8" contextprojections="0"/>
+    <transition zoomoutpause="1" zoomin="0" type="crossdissolve" zoomspeed="2" zoomafterinfov="140" zoomout="0" blendtime="1" blendcolor="0x000000" softedge="0" zoomafteroutfov="40" enabled="1" delay="none" zoomfov="40"/>
+    <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" lockedkeyboard="0" contextvr="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="1" lockedwheel="0" invertwheel="0" hideabout="0" sensitivity="8" rubberband="0" simulatemass="1" zoomcentercursor="1" lockedmouse="0" speedwheel="1"/>
   </panorama>
   <masternode>
-    <userdata comment="" description="" copyright="" tags="" author="" title="잠실래미안아이파크"/>
+    <userdata author="" comment="" copyright="" description="" title="잠실래미안아이파크" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
